@@ -22,7 +22,7 @@ body {
 .item-list {
     position: relative;
     top: 48px;
-    left: 15px;
+    margin: 0 auto;
 }
 
 .item-cards {
