@@ -1,0 +1,83 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.item-heading {
+    position: absolute;
+    width: 128px;
+    height: 19px;
+    /* left: 16px;
+    top: 113px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.item-container {
+    /* position: absolute; */
+    left: 15px;
+    /* top: 144px; */
+    height: 104px;
+    width: 328px;
+    box-shadow: 4px 4px 4px rgba(226, 225, 217, 0.25);
+    border-radius: 8px;
+    background-color: #ffffff;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+.item-image {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 31px;
+    top: 16px;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.item-description {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+}
+
+.item-description p {
+    color: black;
+    width: 172px;
+    height: 19px;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+.item-price {
+    font-weight: 700;
+    position: absolute;
+    width: 164px;
+    height: 18.82px;
+    left: 130px;
+    top: 69px;
+}
+
+.item-vendor {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 266px;
+    top: 76px;
+}
