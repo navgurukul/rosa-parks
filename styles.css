@@ -14,9 +14,21 @@ body {
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-
+    top:30px;
 
     color: #000000;
+}
+
+.Card-1{
+    top: 60px;
+}
+
+.Card-2{
+    top: 70px;
+}
+
+.Card-3{
+    top: 80px;
 }
 
 .item-container {
