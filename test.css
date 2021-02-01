@@ -1,50 +1,28 @@
-body {
-    background-color: #f1efef;
+p {
+    font-family: 'Roboto';
 }
 
-.item-heading {
-    position: absolute;
-    width: 128px;
-    height: 19px;
-    left: 16px;
-    top: 113px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    top:30px;
-
-    color: #000000;
+.main-container {
+    margin-top: 20%;
 }
 
-.item-list {
-    position: relative;
-    top: 48px;
-    margin: 0 auto;
+.header p {
+    font-size: 114.286%;
+    font-weight: 700;
+    line-height: 117.188%;
 }
-
-.item-cards {
-    position: relative;
-    margin-top: 10px;
-}
-
 
 .item-container {
-    /* position: absolute; */
-    
-    left: 15px;
-    /* top: 144px; */
+    display: flex;
+    position: relative;
+    top: 20%;
     height: 104px;
-    width: 328px;
     box-shadow: 4px 4px 4px rgba(173, 173, 168, 0.25);
     border-radius: 8px;
     background-color: #ffffff;
-    /* padding-top: 5px;
-    padding-bottom: 5px; */
-}
+    margin-top: 10px;
 
+}
 
 .item-image {
     position: absolute;
@@ -55,7 +33,6 @@ body {
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
 }
-
 
 .item-description {
     width: 50%;
@@ -85,7 +62,7 @@ body {
     position: absolute;
     width: 164px;
     height: 18.82px;
-    left: 130px;
+    left: 35%;
     top: 69px;
 }
 
@@ -93,19 +70,18 @@ body {
     position: absolute;
     width: 54px;
     height: 16px;
-    left: 266px;
-    top: 76px;
+    right: 5%;
+    bottom: 15%;
 }
 
-
 .disclaimer {
-    position: absolute;
+    position: relative;
+    padding-top: 10%;
     font-family: 'Roboto';
     height: 28px;
-    width: 246px;
-    left: 57px;
-    top: 504px;
-    border-radius: nullpx;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: null;
     font-weight: 700;
     font-size: 12px;
     font-style: normal;
