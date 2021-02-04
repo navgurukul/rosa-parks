@@ -2,9 +2,17 @@ body {
     background-color: #f1efef;
 }
 
+#empty-body {
+    background-color: #E5E5E5;
+}
+
 p {
     font-family: 'Roboto';
     color: black;
+}
+
+.empty-div {
+    margin-top: 30%;
 }
 
 .main-container {
@@ -12,7 +20,7 @@ p {
 }
 
 .header p {
-    font-size: 114.286%;
+    font-size: 19px;
     font-weight: 900;
     line-height: 117.188%;
 }
@@ -26,7 +34,6 @@ p {
     border-radius: 8px;
     background-color: #ffffff;
     margin-top: 10px;
-
 }
 
 .item-image {
@@ -34,6 +41,16 @@ p {
     width: 72px;
     height: 72px;
     left: 18px;
+    top: 16px;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.ui-image {
+    position: absolute;
+    width: 105px;
+    height: 68px;
+    right: 8%;
     top: 16px;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -60,6 +77,42 @@ p {
     line-height: 14px;
     text-transform: capitalize;
 }
+
+.ui-description {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 11px;
+    
+}
+
+.ui-description p {
+    color: #665E5E;
+    font-weight: 700;
+    width: 172px;
+    height: 19px;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 11.5px;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+.ui-heading {
+    position: absolute;
+    color: #000000;
+    top: 10%;
+    left: 10%;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
 
 .item-price {
     font-weight: 700;
